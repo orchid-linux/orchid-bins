@@ -44,10 +44,10 @@ sleep 2
 echo "[ok]"
 echo "Récupération des outils Orchid ..."
 cd /usr/share/orchid
-sudo git clone https://github.com/wamuu-sudo/orchid-bins.git
-sudo git clone https://github.com/wamuu-sudo/wallpapers.git
+sudo git clone https://github.com/orchid-linux/orchid-bins.git
+sudo git clone https://github.com/orchid-linux/wallpapers.git
 cd /usr/share/orchid/desktop/dwm
-git clone https://github.com/wamuu-sudo/dwm-st-slstatus.git
+git clone https://github.com/orchid-linux/dwm-st-slstatus.git
 wget https://dl.orchid-linux.org/misc/tools/set-dwm
 cd /usr/share/orchid/tools
 git clone https://github.com/Chevek/Gaming-Flatpak.git
